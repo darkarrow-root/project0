@@ -2,11 +2,34 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link rel="stylesheet" href="stylesheet.css" type="text/css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     </head>
     <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div id="head">
+            <ul>
+                <li><a href="/search/imageSearch.html">Image Search</a></li>
+                <li><a href="/search/advancedSearch.html">Advanced Search</a></li>
+            </ul>
+        </div>
+        <div id="central-section">
+            <div id="logo">
+                <img src="/search/images/logo.png" alt="logo">
+            </div>
+            <div id="search-section">
+                <form action="https://google.com/search">
+                    <div id="search-bar">
+                        <span class="material-symbols-outlined">
+                            search
+                        </span>
+                        <input type="text" name="q">
+                    </div>
+                    <div id="search-button">
+                        <input class="button" type="submit" value="Google Search">
+                        <input class="button" type="submit" value="I'm Feeling Lucky">
+                    </div>
+                </form>
+            </div>
+        </div>
     </body>
 </html>
