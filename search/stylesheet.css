@@ -35,15 +35,31 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 60vh;
+    height: 62vh;
 }
 
 #logo > img{
     width: 100%;
     height: 100%;
     scale: 0.49;
+    margin-top: -1%;
 }
 
+.logo-part-one{
+    width: 100%;
+    height: 100%;
+    scale: 0.5;
+}
+
+.logo-part-two{
+    display: flex;
+    justify-content: right;
+    width: 74%;
+    margin-top: -69px;
+    color: #0081CF;
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
 
 #search-bar{
     width: 60vh;
@@ -52,7 +68,7 @@ body{
     scale: 1;
     border: 1px solid #cacaca;
     border-radius: 25px;
-    margin-top: -2vh;
+    margin-top: -1vh;
     vertical-align: top;
     display: flex;
     justify-content: left;
